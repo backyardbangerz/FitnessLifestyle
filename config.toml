@@ -21,6 +21,10 @@ paginate = 6
   URL = "plugins/magnific-popup/dist/magnific-popup.css"
   [[params.plugins.css]]
   URL = "plugins/slick-carousel/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/cody-house/css/style.css"
+  [[params.plugins.css]]
+  URL = "plugins/cody-house/css/style.scss"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -41,6 +45,10 @@ paginate = 6
   URL = "plugins/search/search.js"
   [[params.plugins.js]]
   URL = "plugins/google-map/map.js"
+  [[params.plugins.js]]
+  URL = "plugins/cody-house/js/util.js"
+  [[params.plugins.js]]
+  URL = "plugins/cody-house/js/main.js"
   
 ############################## navigation ###############################
 [menu]
