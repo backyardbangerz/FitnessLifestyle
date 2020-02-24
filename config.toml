@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://www.demo.fitnesslifestyle.com.my/"
+baseURL = "https://tender-carson-9228b3.netlify.com/"
 languageCode = "en-us"
 title = "Fitness Lifestyle | Where Fitness is a Way of Life"
 theme = "wishfund-hugo"
