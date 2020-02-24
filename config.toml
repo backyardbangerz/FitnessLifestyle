@@ -1,0 +1,206 @@
+######################## default configuration ####################
+baseURL = "http://www.demo.fitnesslifestyle.com.my/"
+languageCode = "en-us"
+title = "Fitness Lifestyle | Where Fitness is a Way of Life"
+theme = "wishfund-hugo"
+summaryLength = "10"
+paginate = 6
+
+[outputs]
+  home = ["HTML", "AMP", "RSS", "JSON"]
+
+######################### Plugins #################################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/css/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify/css/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/magnific-popup/dist/magnific-popup.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick-carousel/slick/slick.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jquery/jquery.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/js/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/magnific-popup/dist/jquery.magnific-popup.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick-carousel/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/reading-time/readingTime.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+  [[params.plugins.js]]
+  URL = "plugins/google-map/map.js"
+  
+############################## navigation ###############################
+[menu]
+    
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight = 2
+  
+ # [[menu.main]]
+ # name = "Blog"
+ # URL = "blog"
+ # weight = 3
+  
+ # [[menu.main]]
+ # name = "Causes"
+ # URL = "causes"
+ # weight = 4
+
+ # [[menu.main]]
+ # weight = 5
+ # name = "Get Involved"
+ # hasChildren = true
+ #
+ #   [[menu.main]]
+ #   parent = "Get Involved"
+ #   name = "Donation"
+ #   URL = "donation"
+ #
+ #   [[menu.main]]
+ #   parent = "Get Involved"
+ #   name = "Volunteer"
+ #   URL = "volunteer"
+  
+  [[menu.main]]
+  name = "Class"
+  URL = "event"
+  weight = 3
+    
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 4
+
+#  [[menu.main]]
+#  name = "Pricing"
+#  URL = "pricing"
+#  weight = 5
+
+  ################# footer menu ##################
+
+ # [[menu.footer]]
+ # name = "service"
+ # URL = "service"
+ # weight = 1
+
+  [[menu.footer]]
+  name = "about"
+  URL = "about"
+  weight = 1
+  
+ # [[menu.footer]]
+ # name = "blog"
+ # URL = "blog"
+ # weight = 3
+  
+  [[menu.footer]]
+  name = "pricing"
+  URL = "pricing"
+  weight = 2
+  
+  [[menu.footer]]
+  name = "contact"
+  URL = "contact"
+  weight = 3
+
+
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Contact Information
+phone = "+6052822472"
+email = "contact@fitnesslifestyle.com.my"
+location = "No. 35A, Jalan Rishah Permai, 30100 Ipoh, Perak Darul Ridzuan, Malaysia."
+
+#copyright = "&copy; 2020 a theme by [themefisher](https://themefisher.com/)"
+copyright = "&copy; 2020 Fitnes Lifestyle (IP0325209-M)"
+
+
+# Meta data
+description = "At FITNESS LIFESTYLE, we guide you to a better health and fitness in order for you to beter cope with this modern lifestyle."
+author = "Techshakers PLT"
+
+# google map
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDepzTGppd8gOamvKe_W2COkKlLdcv-LTI&libraries=places"
+mapLatitude = "4.585965"
+mapLongitude = "101.052819"
+mapMarker = "images/marker.png"
+
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+
+  # Navigation top header
+  [params.topHeader]
+  enable = true
+
+  # Navigation button
+  [params.navBtn]
+  enable = true
+  label = "Get a Free Trial"
+  link = "contact"
+
+  # Subscription
+  [params.subscription]
+  title = "Subscribe Us"
+  content = "Subscribe to get latest news article and resources"
+  
+
+  #################### social icon ######################################
+  [[params.social]]
+  name = "Facebook"
+  icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
+  link = "https://www.facebook.com/SamPakiaraj/"
+  
+  [[params.social]]
+  name = "Instagram"
+  icon = "ti-instagram" # themify icon pack https://themify.me/themify-icons
+  link = "https://www.instagram.com/fitnesslifestyleipoh/"
+  
+  [[params.social]]
+  name = "YouTube"
+  icon = "ti-youtube" # themify icon pack https://themify.me/themify-icons
+  link = "https://www.youtube.com/channel/UChUBwPx1CyWsYjkAUohn8yA"
+  
+  [[params.social]]
+  name = "Twitter"
+  icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+  link = "#"
+  
+############################# post share links ######################
+[[params.postShare]]
+icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
+name = "facebook"
+link = "#"
+
+[[params.postShare]]
+icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+name = "twitter"
+link = "#"
+
+[[params.postShare]]
+icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+name = "linkedin"
+link = "#"
+
+[[params.postShare]]
+icon = "ti-pinterest" # themify icon pack https://themify.me/themify-icons
+name = "pinterest"
+link = "#"

@@ -1,0 +1,244 @@
+########################### about ###############################
+about:
+  enable : true
+  image : "images/about/img-3.jpg"
+  title : "Welcome to Fitness Lifestyle"
+  leadContent : "Our goal is to guide you to success while giving you the tools that will allow you to thrive!"
+  content : "We deliver workout experiences that are not only challenging and motivating, but also fun and inviting. 
+  So whether you’re looking to get back on track, start fresh or simply not sure where to start, you’ll always be welcomed. 
+  Let us connect you with results that help lead to a stronger, bolder, and more incredible you inside and outside the gym."
+
+
+############################# partners ##########################
+partners:
+  enable : False
+  title : "Worldwide partner"
+  content : "Assumenda reiciendis delectus dolore incidunt molestias omnis quo quaerat voluptate, eligendi perspiciatis
+            ipsa laudantium nesciunt officia, odit nemo quidem hic itaque. Fugiat."
+  partnersLogo:
+    # partner logo loop
+    - logo : "images/clients/client1.png"
+      link : "#"
+      
+    # partner logo loop
+    - logo : "images/clients/client2.png"
+      link : "#"
+      
+    # partner logo loop
+    - logo : "images/clients/client5.png"
+      link : "#"
+      
+    # partner logo loop
+    - logo : "images/clients/client4.png"
+      link : "#"
+
+
+########################## history ##############################
+history:
+  enable : true
+  historyItem:
+    # history item loop
+    - title : "Founded in 2010"
+      icon : "ti-home"
+      subtitle : "Operational since 2013!!"
+      content : "Fitness Lifestyle was established in 2010 by Sam Pakiaraj, one of the industry's fitness leaders."
+      
+    # history item loop
+    - title : "Our Mission"
+      icon : "ti-agenda"
+      subtitle : "Mission to make smile the world"
+      content : "We guide you to a better health and fitness in order for you to beter cope with this modern lifestyle."
+      
+    # history item loop
+    - title : "Large Community"
+      icon : "ti-hand-open"
+      subtitle : "Join our community & help others"
+      content : "Here, you can be yourself, go at your own pace with inspiration and support for you to achieve your best."
+
+############################### Team ##############################
+team:
+  enable : true
+  subtitle : "Our Trainers"
+  title : "Expert trainers to get best service"
+  button:
+    enable : true
+    label : "Become a Trainer"
+    link : "volunteer"
+  teamMember:
+    # team member loop
+    - name : "John Doe"
+      designation : "Trainer"
+      image : "images/team/staff-1.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+    # team member loop
+    - name : "John Doe"
+      designation : "Trainer"
+      image : "images/team/staff-2.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+    # team member loop
+    - name : "John Doe"
+      designation : "Trainer"
+      image : "images/team/staff-3.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+    # team member loop
+    - name : "John Doe"
+      designation : "Trainer"
+      image : "images/team/staff-4.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+    
+    # team member loop
+    - name : "Jane Doe"
+      designation : "Trainer"
+      image : "images/team/staff-5.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+
+    # team member loop
+    - name : "John Doe"
+      designation : "Trainer"
+      image : "images/team/staff-6.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+
+    # team member loop
+    - name : "John Doe"
+      designation : "Trainer"
+      image : "images/team/staff-7.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+
+    # team member loop
+    - name : "Jane Doe"
+      designation : "Trainer"
+      image : "images/team/staff-8.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+
+################### call to action ###########################
+cta:
+  enable : true
+  # cta content comes from homepage.yml
+
+############################## Gallery ######################
+gallery:
+  enable : true
+  # gallery items comes from homepage.yml

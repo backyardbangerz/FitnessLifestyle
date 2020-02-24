@@ -1,0 +1,147 @@
+################################ Banner ##############################
+banner:
+  enable : true
+  subtitle : "Getting Better Everyday"
+  title : " The Best Fitness <br> Studio In Town"
+  content : "COME AND EXPERIENCE A NEW WAY OF LIFE AT FITNESS LIFESTYLE NOW"
+  button:
+    enable : true
+    label : "Learn More"
+    link : "classes"
+
+############################# Intro ##################################
+intro:
+  enable: true
+  subtitle : "What we can do"
+  title : "We Believe that We can <br>Help You be a Better you"
+  content : "Our passion for empowering members to live fit and healthy lives is reflected in everything we do. 
+  We realize that the toughest step is often taking that first step into a gym, and that’s why our clubs feel more like communities. 
+  Here, you can be yourself, go at your own pace and get the inspiration and support you need to achieve your best every day."
+
+  introItem:
+    # intro item loop
+    - title : "Get inspired"
+      image : "images/about/image-1.jpg"
+      content : "Fitness is a state of mind. Dress for a workout, even if you’re not feeling up to it."
+      
+    # intro item loop
+    - title : "Build Yourself"
+      image : "images/about/image-2.jpg"
+      content : "It's more than just lifting weights. It takes commitment, dedication and consistency."
+      
+    # intro item loop
+    - title : "Eat Healthy"
+      image : "images/about/image-3.jpg"
+      content : "We guide you to eat Real Foods, and lose weight sensibly"
+      
+    # intro item loop
+    - title : "Live a Healty Lifesytle"
+      image : "images/about/image-4.jpg"
+      content : "Fitness is much more than just exercise: It’s a Lifestyle"
+
+################################# Video ###############################
+video:
+  enable : true
+  title : "We Make a Difference <br>in every Lifestyle"
+  videoThumb : "images/bg/vbg-1.jpg"
+  video: "https://www.youtube.com/watch?v=1XHrTIQg_d4"
+  
+################################# funfacts ###############################
+funfacts:
+  enable : true
+  funItem:
+    # funfacts item loop
+    - title : "Years of Experience"
+      count: "10"
+      
+    # funfacts item loop
+    - title : "Active Members"
+      count: "1460"
+      
+    # funfacts item loop
+    - title : "Availble Classes"
+      count: "24"
+      
+    # funfacts item loop
+    - title : "Open Days"
+      count: "365"
+
+############################ gallery ###################################
+gallery:
+  enable : False
+  subtitle : "Our Gallery"
+  title : "We connect with people across different lifestyle. We take risks and we always keep progressing."
+  galleryItems:
+    - image : "images/gallery/1.jpg"
+    - image : "images/gallery/2.jpg"
+    - image : "images/gallery/3.jpg"
+    - image : "images/gallery/4.jpg"
+    - image : "images/gallery/5.jpg"
+    - image : "images/gallery/6.jpg"
+    - image : "images/gallery/7.jpg"
+    - image : "images/gallery/8.jpg"
+    - image : "images/gallery/9.jpg"
+
+########################## latest causes ################################
+causes:
+  enable : False
+  subtitle : "Latest Cuases"
+  title : "Our Recent Causes to serve better"
+  content : "We provide services in the area of IFRS and management reporting, helping companies to reach
+            their highest level."
+  # causes item comes from "content/event" folder
+
+######################## call to action ###################################
+cta:
+  enable : true
+  title : "We are 100% committed to help you achieve your goals - 3 times faster than on your own!"
+  button:
+    enable : true
+    label : "Contact Us Now"
+    link : "contact"
+
+############################# Latest Blog ###############################
+blog:
+  enable : false
+  subtitle : ""
+  title : ""
+  content : ""
+  # blog item comes from "content/blog" folder
+
+################################# Volunteer ##############################
+volunteer:
+  enable : false
+  image : "images/bg/image-5.jpg"
+  title : "We can’t help everyone, but everyone can help someone"
+  content : "Assumenda reiciendis delectus dolore incidunt molestias omnis quo quaerat voluptate, eligendi perspiciatis
+            ipsa laudantium nesciunt officia, odit nemo quidem hic itaque. Fugiat."
+  partners:
+    enable : false
+    title : "Trusted worldwide partner"
+    partner:
+      # partner loop
+      - logo : "images/clients/client1.png"
+        link : "#"
+        
+      # partner loop
+      - logo : "images/clients/client2.png"
+        link : "#"
+        
+      # partner loop
+      - logo : "images/clients/client4.png"
+        link : "#"
+        
+      # partner loop
+      - logo : "images/clients/client5.png"
+        link : "#"
+        
+      # partner loop
+      - logo : "images/clients/client6.png"
+        link : "#"
+  
+  # form
+  form:
+    subtitle : "Join With us"
+    title : "Become A Volunteer"
+    formAction : "#" # form works with formspree.io
+    

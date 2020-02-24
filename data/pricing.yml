@@ -1,0 +1,40 @@
+########################### Pricing #################################
+pricing:
+  enable : true
+  subtitle : ""
+  title : ""
+  pricing_table:
+    # pricing table loop
+    - title : "General Membership"
+      price : "RM49"
+      unit : "month"
+      description : "Best for new individuals"
+      link : "#"
+      services:
+        - "Specific Fitness Assessment"
+        - "Specially Tailored Training Program"
+        - "Unlimited use of facilities during opening hours"
+        
+    # pricing table loop
+    - title : "Total Value Membership"
+      price : "RM99"
+      unit : "month"
+      description : "Best for experianced individuals"
+      link : "#"
+      services:
+        - "Specific Fitness Assessment"
+        - "Specially Tailored Training Program"
+        - "Total Health and Fitness Consultation"
+        - "Personal Training"
+        - "Group Fitness"
+        - "Unlimited use of facilities during opening hours"
+        
+    # pricing table loop
+    - title : "Special Membership "
+      price : "$99"
+      unit : "month"
+      description : "Best for groups"
+      link : "#"
+      services:
+        - "Spouse Membership"
+        - "Family Membership"
