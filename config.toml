@@ -87,7 +87,12 @@ paginate = 6
   name = "Class"
   URL = "event"
   weight = 3
-    
+
+    [[menu.main]]
+    parent = "Class"
+    name = "Schedule"
+    URL = "calendar"
+
   [[menu.main]]
   name = "Contact"
   URL = "contact"
@@ -129,6 +134,7 @@ paginate = 6
 [params]
 logo = "images/logo.png"
 home = "Home"
+
 # Contact Information
 phone = "+6052822472"
 email = "contact@fitnesslifestyle.com.my"
@@ -143,13 +149,13 @@ description = "At FITNESS LIFESTYLE, we guide you to a better health and fitness
 author = "Techshakers PLT"
 
 # google map
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDepzTGppd8gOamvKe_W2COkKlLdcv-LTI&libraries=places"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBeXaKQFejheHgKTpLCltH29mS7rmSS_fo&libraries=places"
 mapLatitude = "4.585965"
 mapLongitude = "101.052819"
 mapMarker = "images/marker.png"
 
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "223956166"
 
   # Preloader
   [params.preloader]
