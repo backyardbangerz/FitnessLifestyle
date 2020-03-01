@@ -64,72 +64,10 @@ team:
     enable : true
     label : "Become a Trainer"
     link : "volunteer"
+
   teamMember:
     # team member loop
-    - name : "John Doe"
-      designation : "Trainer"
-      image : "images/team/staff-1.jpg"
-      social:
-        - name : "facebook"
-          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "twitter"
-          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "instagram"
-          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "linkedin"
-          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-    # team member loop
-    - name : "John Doe"
-      designation : "Trainer"
-      image : "images/team/staff-2.jpg"
-      social:
-        - name : "facebook"
-          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "twitter"
-          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "instagram"
-          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "linkedin"
-          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-    # team member loop
-    - name : "John Doe"
-      designation : "Trainer"
-      image : "images/team/staff-3.jpg"
-      social:
-        - name : "facebook"
-          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "twitter"
-          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "instagram"
-          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "linkedin"
-          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-    # team member loop
-    - name : "John Doe"
+    - name : "Trainer Devan"
       designation : "Trainer"
       image : "images/team/staff-4.jpg"
       social:
@@ -147,31 +85,10 @@ team:
           
         - name : "linkedin"
           icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-          link : "#"
+          link : "#"    
     
     # team member loop
-    - name : "Jane Doe"
-      designation : "Trainer"
-      image : "images/team/staff-5.jpg"
-      social:
-        - name : "facebook"
-          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "twitter"
-          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "instagram"
-          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-          
-        - name : "linkedin"
-          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-          link : "#"
-
-    # team member loop
-    - name : "John Doe"
+    - name : "Tainer William"
       designation : "Trainer"
       image : "images/team/staff-6.jpg"
       social:
@@ -192,9 +109,9 @@ team:
           link : "#"
 
     # team member loop
-    - name : "John Doe"
+    - name : "Trainer Joey"
       designation : "Trainer"
-      image : "images/team/staff-7.jpg"
+      image : "images/team/staff-8.jpg"
       social:
         - name : "facebook"
           icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
@@ -213,9 +130,9 @@ team:
           link : "#"
 
     # team member loop
-    - name : "Jane Doe"
-      designation : "Trainer"
-      image : "images/team/staff-8.jpg"
+    - name : "Dr. Gayathri"
+      designation : "Medic"
+      image : "images/team/staff-5.jpg"
       social:
         - name : "facebook"
           icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons

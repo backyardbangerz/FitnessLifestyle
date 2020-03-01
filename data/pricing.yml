@@ -5,8 +5,8 @@ pricing:
   title : ""
   pricing_table:
     # pricing table loop
-    - title : "General Membership"
-      price : "RM49"
+    - title : "Monthly Membership"
+      price : "RM80"
       unit : "month"
       description : "Best for new individuals"
       link : "#"
@@ -16,9 +16,9 @@ pricing:
         - "Unlimited use of facilities during opening hours"
         
     # pricing table loop
-    - title : "Total Value Membership"
-      price : "RM99"
-      unit : "month"
+    - title : "Lifetime Membership"
+      price : "RM195"
+      unit : "once"
       description : "Best for experianced individuals"
       link : "#"
       services:
@@ -29,12 +29,12 @@ pricing:
         - "Group Fitness"
         - "Unlimited use of facilities during opening hours"
         
-    # pricing table loop
-    - title : "Special Membership "
-      price : "$99"
-      unit : "month"
-      description : "Best for groups"
-      link : "#"
-      services:
-        - "Spouse Membership"
-        - "Family Membership"
+#    # pricing table loop
+#    - title : "Special Membership "
+#      price : "$99"
+#      unit : "month"
+#      description : "Best for groups"
+#      link : "#"
+#      services:
+#        - "Spouse Membership"
+#        - "Family Membership"

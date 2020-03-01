@@ -31,7 +31,3 @@ According to Jacobsen, Yoga has five principal traditional meanings
 3. a name of a school or system of philosophy (darśana);
 4. with prefixes such as "hatha-, mantra-, and laya-, traditions specialising in particular techniques of yoga;
 5. the goal of Yoga practice.
-
-### Let's know more how we do it?
-
-{{< youtube UIouOYI4RhQ >}}
