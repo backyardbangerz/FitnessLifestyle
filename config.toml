@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://www.demo.fitnesslifestyle.com.my"
+baseURL = "https://www.fitnesslifestyle.com.my"
 languageCode = "en-us"
 title = "Fitness Lifestyle | Where Fitness is a Way of Life"
 theme = "wishfund-hugo"
