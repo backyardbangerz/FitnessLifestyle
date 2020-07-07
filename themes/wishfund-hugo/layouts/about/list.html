@@ -99,6 +99,7 @@
         <div class="team-item-wrap mb-5">
           <div class="team-item position-relative">
             <img src="{{ .image | absURL }}" alt="" class="img-fluid w-100">
+            <!--
             <div class="team-img-hover">
               <ul class="team-social list-inline">
                 {{ range .social }}
@@ -108,10 +109,15 @@
                 {{end }}
               </ul>
             </div>
+            -->
           </div>
           <div class="team-item-content">
             <h4 class="mt-3 mb-0 text-capitalize">{{ .name }}</h4>
             <p>{{ .designation }}</p>
+            <br>
+            <p>{{ .bio }}</p>
+            <br>
+            <p>{{ .description }}</p>
           </div>
         </div>
       </div>

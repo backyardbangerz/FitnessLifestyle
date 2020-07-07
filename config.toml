@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://tender-carson-9228b3.netlify.com/"
+baseURL = "https://www.demo.fitnesslifestyle.com.my"
 languageCode = "en-us"
 title = "Fitness Lifestyle | Where Fitness is a Way of Life"
 theme = "wishfund-hugo"
@@ -21,10 +21,6 @@ paginate = 6
   URL = "plugins/magnific-popup/dist/magnific-popup.css"
   [[params.plugins.css]]
   URL = "plugins/slick-carousel/slick/slick.css"
-  [[params.plugins.css]]
-  URL = "plugins/cody-house/css/style.css"
-  [[params.plugins.css]]
-  URL = "plugins/cody-house/css/style.scss"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -57,26 +53,41 @@ paginate = 6
   name = "About"
   URL = "about"
   weight = 2
-  
+
   [[menu.main]]
-  name = "More"
+  name = "Programmes"
   weight = 3
   hasChildren = true
 
     [[menu.main]]
-    parent = "More"
-    name = "Class"
+    parent = "Programmes"
+    name = "Personal Training"
+    URL = "trainer/trainer-1"
+
+    [[menu.main]]
+    parent = "Programmes"
+    name = "Sports Performance Training"
+    URL = "sports/sports-1"
+  
+  [[menu.main]]
+  name = "Classes"
+  weight = 4
+  hasChildren = true
+
+    [[menu.main]]
+    parent = "Classes"
+    name = "All Class"
     URL = "event"
 
     [[menu.main]]
-    parent = "More"
+    parent = "Classes"
     name = "Schedule"
     URL = "calendar"
 
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 4
+  weight = 5
 
   ################# footer menu ##################
 
@@ -155,12 +166,12 @@ googleAnalitycsID = "Your ID"
   [[params.social]]
   name = "YouTube"
   icon = "ti-youtube" # themify icon pack https://themify.me/themify-icons
-  link = "https://www.youtube.com/channel/UChUBwPx1CyWsYjkAUohn8yA"
+  link = "https://www.youtube.com/channel/UCZRJCr7ds_6zGaEtchpEwwA"
   
-  [[params.social]]
-  name = "Twitter"
-  icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-  link = "#"
+  #[[params.social]]
+  #name = "Twitter"
+  #icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+  #link = "#"
   
 ############################# post share links ######################
 [[params.postShare]]
@@ -168,10 +179,10 @@ icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
 name = "facebook"
 link = "#"
 
-[[params.postShare]]
-icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-name = "twitter"
-link = "#"
+#[[params.postShare]]
+#icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+#name = "twitter"
+#link = "#"
 
 [[params.postShare]]
 icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons

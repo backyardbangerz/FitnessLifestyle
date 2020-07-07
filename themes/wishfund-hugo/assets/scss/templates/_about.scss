@@ -70,15 +70,7 @@
 .volunteer{
 	position: relative;
 
-	&:before{
-		position: absolute;
-		content:"";
-		right:0px;
-		top:0px;
-		width: 47%;
-		height:100%;
-		background: $secondary-color;
-	}
+
 }
 
 .volunteer-content{
